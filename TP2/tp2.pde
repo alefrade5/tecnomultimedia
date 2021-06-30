@@ -35,13 +35,13 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Directed by"+ pantalla, width/2, height/2 );  
+      text( "Directed by", width/2, height/2 );  
       println("Directed by"+ pantalla);
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "DAVE FILONI"+ pantalla, width/2, 310 );
+      text( "DAVE FILONI", width/2, 310 );
       println("DAVE FILONI"+ pantalla);
       
       println( frameCount );
@@ -57,13 +57,13 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Written by"+ pantalla, width/2, height/2 ); 
+      text( "Written by", width/2, height/2 ); 
       println("Written by"+ pantalla);
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "JON FAVREAU"+ pantalla , width/2, 310 );
+      text( "JON FAVREAU", width/2, 310 );
       println("JON FAVREAU"+ pantalla);
       
       println("Fotograma:"+ frameCount);
@@ -83,13 +83,13 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Created By"+ pantalla, width/2, height/2 ); 
+      text( "Created By", width/2, height/2 ); 
       println("Written by"+ pantalla);
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "JON FAVREAU"+ pantalla , width/2, 310 );
+      text( "JON FAVREAU", width/2, 310 );
       println("JON FAVREAU"+ pantalla);
       
       println("Fotograma:"+ frameCount);
@@ -105,13 +105,13 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Based on STAR WARS by"+ pantalla, width/2, height/2 );  
+      text( "Based on STAR WARS by", width/2, height/2 );  
       println("Based on STAR WARS by"+ pantalla);
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "GEORGE LUCAS"+ pantalla, width/2, 310 );
+      text( "GEORGE LUCAS", width/2, 310 );
       println("GEORGE LUCAS"+ pantalla);
       
       println("Fotograma:"+ frameCount);
@@ -127,15 +127,15 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Exclusive Producers"+ pantalla, width/2, 290 );  
+      text( "Exclusive Producers", width/2, 290 );  
       println("Exclusive Producers"+ pantalla);
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "JON FAVREAU"+ pantalla, width/2, 300 );
+      text( "JON FAVREAU", width/2, 300 );
       textAlign( CENTER, TOP );
-      text( "DAVE FILONI"+ pantalla, width/2, 330 );
+      text( "DAVE FILONI", width/2, 330 );
       println("JON FAVREAU"+ pantalla);
       println("DAVE FILONI"+ pantalla);
       
@@ -152,14 +152,14 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Exclusive Producers"+ pantalla, width/2, 290 );  
+      text( "Exclusive Producers", width/2, 290 );  
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "KATHLEEN KENNEDY"+ pantalla, width/2, 300 );
+      text( "KATHLEEN KENNEDY", width/2, 300 );
       textAlign( CENTER, TOP );
-      text( "COLIN WILSON"+ pantalla, width/2, 330 );
+      text( "COLIN WILSON", width/2, 330 );
       println("KATHLEEN KENNEDY"+ pantalla);
       println("COLIN WILSON"+ pantalla);
    
@@ -176,12 +176,12 @@ void draw(){
       textAlign( CENTER, BOTTOM );
       fill( yellow, alpha );
       textSize( 24 );
-      text( "Starring"+ pantalla, width/2, height/2 );  
+      text( "Starring", width/2, height/2 );  
       
       fill( yellow, alpha );
       textSize( 34 );
       textAlign( CENTER, TOP );
-      text( "PEDRO PASCAL"+ pantalla, width/2, 310 );
+      text( "PEDRO PASCAL", width/2, 310 );
       println("PEDRO PASCAL"+ pantalla);
       
       println("Fotograma:"+ frameCount);
