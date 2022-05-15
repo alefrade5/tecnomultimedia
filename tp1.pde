@@ -327,7 +327,7 @@ void draw(){
  }
 }
 
-//Evento de presion del mouse
+//Eventos del mouse
 void mousePressed() {
   println("click: "+ pantalla);
   if ( pantalla==0 ) {
