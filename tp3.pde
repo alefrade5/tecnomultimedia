@@ -1,3 +1,5 @@
+//Ilucion Optica de Alessandro Frade
+
 void setup() {
   size(600, 600);
   ellipseMode(CENTER);
@@ -6,6 +8,7 @@ void setup() {
 }
 
 void draw() {
+  //fondo óptico
   background(255);
    for (int i= 0; i< 601; i +=15) {
     
@@ -17,20 +20,20 @@ void draw() {
     
       pushMatrix();
 
-     
-      translate(mouseX, mouseY);
+      //movimiento de figura
+      translate(mouseX, mouseY); 
       
+      //figura de efecto óptico
       fill(125, 125, 125);
       strokeWeight( map(600, 0, 300, 0, 0.5 ) );
-      
-      quad(160, 439, 442, 299, 384, 300, 140, 419);
+      quad(160, 440, 445, 299, 384, 300, 140, 419);
       noStroke();
-      quad(180, 150, 445, 299, 400, 310, 140, 160);
+      quad(180, 150, 445, 299, 402, 312, 140, 160);
       stroke(0);
       quad(140, 160, 384, 300, 354, 314, 140, 190);
-      quad(213, 233, 213, 415, 175, 458, 175, 211);
+      quad(213, 233, 213, 415, 175, 460, 175, 211);
       noStroke();
-      quad(176, 460, 444, 331, 445, 300, 176, 432);
+      quad(176, 460, 444, 331, 444, 300, 176, 432);
       quad(175, 210, 175, 460, 140, 450, 140, 160);
       
       
