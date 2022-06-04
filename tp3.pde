@@ -1,7 +1,7 @@
 //Ilucion Optica de Alessandro Frade
 
 void setup() {
-  size(600, 600);
+  size(400, 400);
   ellipseMode(CENTER);
   rectMode(CENTER);
 
@@ -20,8 +20,7 @@ void draw() {
     
       pushMatrix();
 
-      //movimiento de figura
-      translate(mouseX, mouseY);
+      
       //rotate(60);
       
       //figura de efecto óptico
@@ -42,8 +41,10 @@ void draw() {
     }
 }
 
+//movimiento de figura
 void mousePressed(){
 }
 
 void mouseDragged(){
+   translate(mouseX, mouseY);
 }
