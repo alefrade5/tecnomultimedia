@@ -20,7 +20,7 @@ void draw() {
     
       pushMatrix();
 
-      
+       translate(mouseX, mouseY);
       //rotate(60);
       
       //figura de efecto óptico
@@ -46,5 +46,4 @@ void mousePressed(){
 }
 
 void mouseDragged(){
-   translate(mouseX, mouseY);
 }
