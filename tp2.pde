@@ -31,8 +31,6 @@ void draw() {
       posX = mouseX;
       //posY = mouseY;
       }
-      //translate(-259, -290);
-      //translate(-89, -100);
       translate(-130, -100);
       translate(posX,posY);
       
