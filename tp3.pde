@@ -1,13 +1,19 @@
 //Ilucion Optica de Alessandro Frade
 
+//inicializacion de variables
+float posX, posY;
+
 void setup() {
   size(400, 400);
-  ellipseMode(CENTER);
-  rectMode(CENTER);
+  
+  //Asignaciones de valores
+  posX = mouseX;
+  //posY = mouseY;
 
 }
 
 void draw() {
+  
   //fondo óptico
   background(255);
    for (int i= 0; i< 601; i +=15) {
@@ -19,9 +25,14 @@ void draw() {
     line( i, 0, i, 600);
     
       pushMatrix();
-
-       translate(mouseX, mouseY);
-      //rotate(60);
+      
+      //movimiento de figura
+      if( mousePressed ){
+      posX = mouseX;
+      //posY = mouseY;
+      }
+      translate(-130, -100);
+      translate(posX,posY);
       
       //figura de efecto óptico
       fill(125, 125, 125);
@@ -35,15 +46,7 @@ void draw() {
       noStroke();
       quad(176, 460, 444, 331, 444, 299, 176, 432);
       quad(175, 210, 175, 460, 140, 450, 140, 160);
-      
-      
+
       popMatrix();
     }
-}
-
-//movimiento de figura
-void mousePressed(){
-}
-
-void mouseDragged(){
 }
