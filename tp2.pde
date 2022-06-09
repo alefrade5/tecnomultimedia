@@ -21,6 +21,7 @@ void draw() {
     if( i < 600 )
     strokeWeight( map(600, 0, 300, 0, 3 ) );
     
+    //Lineas del fondo
     stroke(0, 0, 0);
     line( i, 0, i, 600);
     
