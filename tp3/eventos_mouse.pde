@@ -19,8 +19,8 @@ if ( estado==0  ) {
      
   } else if ( estado== 4){
     if ( colisionCoorSupRectangular(185, 253, 32, 30, mouseX, mouseY)) {
-    //cambiarAEstadopantallaInicio();
-    cambiarAEstadoNivel2();
+    cambiarAEstadoInicio();
+    //cambiarAEstadoNivel2();
     println("NIVEL1 2");
     
   } else if ( estado== 5){
