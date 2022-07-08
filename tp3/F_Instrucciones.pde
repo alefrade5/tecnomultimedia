@@ -4,8 +4,8 @@ void instrucciones(){
   fill(figure);
   textAlign(CENTER, CENTER);
   textSize( 20 ); 
-  text( "LEE LA FRASE PARA COMPLETAR LOS NIVELES", 0, 0, width, height);
-  image(photo,175 , 300);
+  text( "LEE LA FRASE PARA COMPLETAR LOS NIVELES", 50, 100, 300,120 );
+  image(photo,175 , 240);
   photo.resize(50,0);
   pop(); 
 }
