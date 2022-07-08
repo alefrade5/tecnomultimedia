@@ -3,12 +3,12 @@
 int estado=0;
 color fondo = (255);
 color figure = (0);
-PImage photo, Iimage;
+PImage photo, image;
 
 void setup(){
   size( 400, 400 );
   photo = loadImage("Manual.png");
-  image = loadImage("r  Reset.png");
+  image = loadImage("Reset.png");
   
 }
 
