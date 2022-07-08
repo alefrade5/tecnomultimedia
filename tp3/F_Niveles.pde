@@ -23,3 +23,7 @@ void nivel1(){
 void nivel2(){
  background(fondo);
 }
+
+void nivel3(){
+ background(fondo);
+}

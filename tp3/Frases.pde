@@ -17,3 +17,13 @@ void frase2(){
   text( "ELIGE 3", 0, 0, width, height);
   pop();
 }
+
+void frase3(){
+  push(); 
+  background(figure);
+  fill(fondo);
+  textAlign(CENTER, CENTER);
+  textSize( 20 ); //efecto latido
+  text( "TOCA HASTA EL 5", 0, 0, width, height);
+  pop();
+}
