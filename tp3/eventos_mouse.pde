@@ -18,6 +18,7 @@ if ( estado==0  ) {
      println("FRASE 2");
      
   } else if (estado== 4){
+    if ( colisionCoorSupRectangular(400, 400, 400, 400, mouseX, mouseY)) {
     cambiarAEstadoNivel2();
     println("NIVEL1 2");
     

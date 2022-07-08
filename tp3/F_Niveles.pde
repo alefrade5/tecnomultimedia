@@ -32,7 +32,6 @@ void nivel31(){
  textSize( 20 );
  text( "1", 0, 0, width, height);
 }
-
 void nivel32(){
  background(fondo);
 }
