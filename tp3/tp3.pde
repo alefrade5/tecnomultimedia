@@ -1,3 +1,5 @@
+// SEE. El Juego de Alessandro Frade
+
 int estado;
 color fondo = (255);
 color figure = (0);
