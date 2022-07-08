@@ -7,7 +7,6 @@ void pantallaInicio() {
       fill (figure);
     }
   triangle(170, 250, 170, 170, 230, 210);
-  //textAlign( CENTER, BOTTOM );
   textSize( 60 );
   fill (figure);
   text("SEE.", 145, 100);

@@ -30,6 +30,19 @@ void cambiarAEstadoFrase3(){
   estado=6;
 }
 
-void cambiarAEstadoNivel3(){
+void cambiarAEstadoNivel31(){
   estado=7;
+}
+
+void cambiarAEstadoNivel32(){
+  estado=8;
+}
+void cambiarAEstadoNivel33(){
+  estado=9;
+}
+void cambiarAEstadoNivel34(){
+  estado=10;
+}
+void cambiarAEstadoNivel35(){
+  estado=11;
 }

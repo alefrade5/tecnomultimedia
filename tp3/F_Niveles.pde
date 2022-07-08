@@ -22,8 +22,26 @@ void nivel1(){
 
 void nivel2(){
  background(fondo);
+ fill(figure);
+ textSize( 20 );
+ text( "123", 0, 0, width, height);
 }
 
-void nivel3(){
+void nivel31(){
  background(fondo);
+ textSize( 20 );
+ text( "1", 0, 0, width, height);
+}
+
+void nivel32(){
+ background(fondo);
+}
+void nivel33(){
+ background(figure);
+}
+void nivel34(){
+ background(fondo);
+}
+void nivel35(){
+ background(figure);
 }

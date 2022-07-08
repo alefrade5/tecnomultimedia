@@ -21,12 +21,12 @@ if ( estado==0  ) {
     cambiarAEstadoNivel2();
     println("NIVEL1 2");
     
-  } else if (estado== 4){
+  } else if (estado== 5){
     cambiarAEstadoFrase3();
     println("FRASE 3");
     
-  } else if (estado== 4){
-    cambiarAEstadoNivel3();
+  } else if (estado== 6){
+    cambiarAEstadoNivel31();
     println("NIVEL1 3");
 
   }

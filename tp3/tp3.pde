@@ -27,10 +27,18 @@ void draw(){
   }else if (estado== 5) {
     nivel2();
     
-  }else if (estado== 5) {
+  }else if (estado== 6) {
     frase3();
     
-  }else if (estado== 5) {
-    nivel3();
+  }else if (estado== 7) {
+    nivel31();
+ }else if (estado== 8) {
+    nivel32();
+ }else if (estado== 9) {
+    nivel33();
+ }else if (estado== 10) {
+    nivel34();
+ }else if (estado== 11) {
+    nivel35();
 }
 }
