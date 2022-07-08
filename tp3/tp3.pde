@@ -18,27 +18,29 @@ void draw(){
     pantallaInicio();
   } else if ( estado== 1) {
     instrucciones();
+ 
   } else if ( estado== 2) {
     frase1();
-  } else if (estado== 3) {
+  } else if ( estado== 3) {
     nivel1();
-  } else if (estado== 4) {
+  
+  } else if ( estado== 4) {
     frase2();
-  }else if (estado== 5) {
+  } else if ( estado== 5) {
     nivel2();
     
-  }else if (estado== 6) {
+  } else if ( estado== 6) {
     frase3();
     
-  }else if (estado== 7) {
+  } else if ( estado== 7) {
     nivel31();
- }else if (estado== 8) {
+  } else if ( estado== 8) {
     nivel32();
- }else if (estado== 9) {
+  } else if ( estado== 9) {
     nivel33();
- }else if (estado== 10) {
+  } else if ( estado== 10) {
     nivel34();
- }else if (estado== 11) {
+  } else if ( estado== 11) {
     nivel35();
 }
 }
