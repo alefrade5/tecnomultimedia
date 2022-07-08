@@ -3,11 +3,12 @@
 int estado=0;
 color fondo = (255);
 color figure = (0);
-PImage photo;
+PImage photo, Iimage;
 
 void setup(){
   size( 400, 400 );
   photo = loadImage("Manual.png");
+  image = loadImage("r  Reset.png");
   
 }
 
@@ -27,9 +28,9 @@ void draw(){
     frase2();
   } else if ( estado== 5) {
     nivel2();
-    
+   
   } else if ( estado== 6) {
-    frase3();
+    frase3();   
     
   } else if ( estado== 7) {
     nivel31();

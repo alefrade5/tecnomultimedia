@@ -18,7 +18,8 @@ if ( estado==0  ) {
     println("FRASE 2");
      
   } else if ( estado== 4){
-    //if ( colisionCoorSupRectangular(400, 400, 400, 400, mouseX, mouseY)) {
+    if ( colisionCoorSupRectangular(185, 253, 32, 30, mouseX, mouseY)) {
+    //cambiarAEstadopantallaInicio();
     cambiarAEstadoNivel2();
     println("NIVEL1 2");
     
@@ -44,4 +45,4 @@ if ( estado==0  ) {
   }
 }
   }
-//}
+}

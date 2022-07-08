@@ -12,6 +12,10 @@ void frase2(){
   push(); 
   background(figure);
   fill(fondo);
+  rect(185, 253, 32, 30);
+  image(image,175 , 240);
+  image.resize(50,0);
+  fill(fondo);
   textAlign(CENTER, CENTER);
   textSize( 20 ); //efecto latido
   text( "GANASTE", 0, 0, width, height);
