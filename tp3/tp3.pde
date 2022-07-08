@@ -9,8 +9,6 @@ void setup(){
   size( 400, 400 );
   photo = loadImage("Manual.png");
   
-  //background (fondo);
-  
    estado = 0;
 }
 
@@ -28,5 +26,11 @@ void draw(){
     frase2();
   }else if (estado== 5) {
     nivel2();
+    
+  }else if (estado== 5) {
+    frase3();
+    
+  }else if (estado== 5) {
+    nivel3();
 }
 }
