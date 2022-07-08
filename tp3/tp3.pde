@@ -1,6 +1,6 @@
 // SEE. El Juego de Alessandro Frade
 
-int estado;
+int estado=0;
 color fondo = (255);
 color figure = (0);
 PImage photo;
@@ -9,7 +9,6 @@ void setup(){
   size( 400, 400 );
   photo = loadImage("Manual.png");
   
-   estado = 0;
 }
 
 void draw(){
