@@ -14,7 +14,7 @@ void frase2(){
   fill(fondo);
   textAlign(CENTER, CENTER);
   textSize( 20 ); //efecto latido
-  text( "ELIGE 3", 0, 0, width, height);
+  text( "FIN", 0, 0, width, height);
   pop();
 }
 
