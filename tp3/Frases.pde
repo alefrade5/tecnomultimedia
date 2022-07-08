@@ -1,5 +1,5 @@
 void frase1(){
-  push(); //para guardar las configuraciones de estilo y poder dejaralas igual al terminar de ejecutar la funcion
+  push(); 
   background(figure);
   fill(fondo);
   textAlign(CENTER, CENTER);
@@ -9,7 +9,7 @@ void frase1(){
 }
 
 void frase2(){
-  push(); //para guardar las configuraciones de estilo y poder dejaralas igual al terminar de ejecutar la funcion
+  push(); 
   background(figure);
   fill(fondo);
   textAlign(CENTER, CENTER);

@@ -1,5 +1,4 @@
 void pantallaInicio() {
-  //dibuja la pantalla inicio
   push();
   background(fondo);
  if ( colisionCoordenadaConSupCircular(170, 210, 50, mouseX, mouseY)) {
