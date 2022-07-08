@@ -13,9 +13,9 @@ void nivel1(){
  rect(290, 290, 50, 60);
   if ( colisionCoorSupRectangular(60, 290, 50, 60, mouseX, mouseY)) {
    fill(255,0,0);
-    } else {
-      fill (figure);
-    }
+   } else {
+   fill (figure);
+   }
  rect(60, 290, 50, 60);
  pop();
 }

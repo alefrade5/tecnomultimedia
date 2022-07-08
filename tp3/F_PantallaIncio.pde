@@ -4,7 +4,7 @@ void pantallaInicio() {
  if ( colisionCoordenadaConSupCircular(170, 210, 50, mouseX, mouseY)) {
     fill(255);
     } else {
-      fill (figure);
+    fill (figure);
     }
   triangle(170, 250, 170, 170, 230, 210);
   textSize( 60 );
