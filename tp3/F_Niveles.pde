@@ -21,26 +21,38 @@ void nivel1(){
 }
 
 void nivel2(){
+ push();
  background(fondo);
  fill(figure);
  textSize( 20 );
  text( "123", 0, 0, width, height);
+ pop();
 }
 
 void nivel31(){
+ push();
  background(fondo);
  textSize( 20 );
  text( "1", 0, 0, width, height);
+ pop();
 }
 void nivel32(){
+ push();
  background(fondo);
+ pop();
 }
 void nivel33(){
+ push();
  background(figure);
+ pop();
 }
 void nivel34(){
+ push();
  background(fondo);
+ pop();
 }
 void nivel35(){
+ push();
  background(figure);
+ pop();
 }
