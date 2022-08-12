@@ -5,11 +5,13 @@ int estado=0;
 color fondo = (255);
 color figure = (0);
 PImage photo, image;
+String[] frases;
 
 void setup(){
   size( 400, 400 );
   photo = loadImage("Manual.png");
   image = loadImage("Reset.png");
+  image.resize(50,0);
   
 }
 
@@ -28,20 +30,6 @@ void draw(){
   } else if ( estado== 4) {
     frase2();
   } else if ( estado== 5) {
-    nivel2();
-   
-  } else if ( estado== 6) {
-    frase3();   
-    
-  } else if ( estado== 7) {
-    nivel31();
-  } else if ( estado== 8) {
-    nivel32();
-  } else if ( estado== 9) {
-    nivel33();
-  } else if ( estado== 10) {
-    nivel34();
-  } else if ( estado== 11) {
-    nivel35();
+    pantallaInicio();
 }
 }
