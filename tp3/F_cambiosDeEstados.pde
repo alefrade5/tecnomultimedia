@@ -21,7 +21,3 @@ void cambiarAEstadoNivel1(){
 void cambiarAEstadoFrase2(){
   estado=4;
 }
-
-void cambiarAEstadoNivel2(){
-  estado=5;
-}
