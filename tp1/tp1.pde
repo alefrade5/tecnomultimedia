@@ -1,7 +1,6 @@
-int alpha, pantalla;
-float tamBoton;
+int alpha, pantalla, posicionY, posicionY2;
+float tamBoton, posicion, velocidad;
 color colorDelBoton;
-boolean presionable;
 PImage foto, foto1, foto2, image;
 PFont fuente;
 String texto;
@@ -14,9 +13,13 @@ void setup (){
    foto2 = loadImage("destornillador2.jpg");
    image = loadImage("reset.png");
    
-   fuente = loadFont("Calibri-48.vlw");
    textAlign(CENTER);
    textSize(18);
+   
+   posicion = 480;
+   velocidad = 1;
+   posicionY = 480;
+   posicionY2 = 340;
   
   pantalla = 0;
   tamBoton = 160;
@@ -48,8 +51,9 @@ void draw (){
   image( foto, 160, 50, width/2, height/2 );
   
   texto = "Los Destornilladores Phillips son aquellos que tienen la punta en forma de cruz y son de mayor profundidad en el centro que en los extremos.";
-  textFont(fuente);
-  text(texto, 120, 340, 400, 460); 
+  text(texto, 120, posicion, 400, 460);
+  posicion -= velocidad;
+  posicion = posicionY2;
   
   println("Fotograma:"+ frameCount);
   alpha--; 
