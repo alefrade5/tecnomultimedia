@@ -1,5 +1,5 @@
-int alpha, pantalla, posicionY, posicionY2;
-float tamBoton, posicion, velocidad;
+int alpha, pantalla;
+float tamBoton;
 color colorDelBoton;
 PImage foto, foto1, foto2, image;
 PFont fuente;
@@ -16,11 +16,6 @@ void setup (){
    fuente = loadFont("Calibri-20.vlw");
    textAlign(CENTER);
    textSize(18);
-   
-   posicion = 480;
-   velocidad = 1;
-   posicionY = 480;
-   posicionY2 = 340;
   
   pantalla = 0;
   tamBoton = 160;
@@ -52,10 +47,10 @@ void draw (){
   image( foto, 160, 50, width/2, height/2 );
   
   textFont(fuente);
+  fill(0, alpha);
   texto = "Los Destornilladores Phillips son aquellos que tienen la punta en forma de cruz y son de mayor profundidad en el centro que en los extremos.";
-  text(texto, 120, posicion, 400, 460);
-  posicion -= velocidad;
-  posicion = posicionY2;
+  text(texto, 120, 340, 400, 460);
+
   
   println("Fotograma:"+ frameCount);
   alpha--; 
@@ -71,6 +66,7 @@ void draw (){
   image( foto1, 100, 20, width/1.5, height/1.5 );
   
   textFont(fuente);
+  fill(0, alpha);
   texto = "Se utiliza para ajustar o aflojar tornillos que tienen una cabeza con una forma de cruz que encaja con la punta del destornillador.";
   text(texto, 120, 340, 400, 460); 
   
@@ -89,6 +85,7 @@ void draw (){
    image( foto2, 140, 50, width/1.9, height/1.9 );
    
    textFont(fuente);
+   fill(0, alpha);
    texto = "Es uno de los más usados dentro del campo de la construcción, porque permite una gran precisión en el ajuste y afloje de la pieza que queremos trabajar, ya que por su forma no se resbala del tornillo. ";
    text(texto, 120, 330, 400, 460); 
   
