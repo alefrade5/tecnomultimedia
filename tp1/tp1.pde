@@ -3,7 +3,7 @@ float tamBoton;
 color colorDelBoton;
 boolean presionable;
 PImage foto, foto1, foto2, image;
-int contador;
+PFont fuente;
 String texto;
 
 void setup (){
@@ -14,6 +14,7 @@ void setup (){
    foto2 = loadImage("destornillador2.jpg");
    image = loadImage("reset.png");
    
+   fuente = loadFont("Calibri-48.vlw");
    textAlign(CENTER);
    textSize(18);
   
@@ -44,10 +45,11 @@ void draw (){
 } else if (pantalla == 1){
   background(255);
 
-  image( foto, 160, 120, width/2, height/2 );
+  image( foto, 160, 50, width/2, height/2 );
   
-  texto = "Los destornilladores Phillips son aquellos que tienen la punta en forma de cruz y son de mayor profundidad en el centro que en los extremos.";
-  text(texto, 120, 360, 400, 460); 
+  texto = "Los Destornilladores Phillips son aquellos que tienen la punta en forma de cruz y son de mayor profundidad en el centro que en los extremos.";
+  textFont(fuente);
+  text(texto, 120, 340, 400, 460); 
   
   println("Fotograma:"+ frameCount);
   alpha--; 
@@ -60,10 +62,10 @@ void draw (){
 } else if (pantalla == 2){
   background(255);
   
-  image( foto1, 100, 80, width/1.5, height/1.5 );
+  image( foto1, 100, 20, width/1.5, height/1.5 );
   
   texto = "Se utiliza para ajustar o aflojar tornillos que tienen una cabeza con una forma de cruz que encaja con la punta del destornillador.";
-  text(texto, 120, 360, 400, 460); 
+  text(texto, 120, 340, 400, 460); 
   
   println("Fotograma:"+ frameCount);
   alpha--; 
@@ -77,10 +79,10 @@ void draw (){
 } else if (pantalla == 3){
   background(255);
   
-   image( foto2, 140, 110, width/1.8, height/1.8 );
+   image( foto2, 140, 50, width/1.9, height/1.9 );
    
   texto = "Es uno de los más usados dentro del campo de la construcción, porque permite una gran precisión en el ajuste y afloje de la pieza que queremos trabajar, ya que por su forma no se resbala del tornillo. ";
-  text(texto, 120, 360, 400, 460); 
+  text(texto, 120, 330, 400, 460); 
   
    println("Fotograma:"+ frameCount);
    alpha--; 
