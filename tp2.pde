@@ -21,7 +21,7 @@ void draw(){
   strokeWeight(8);
   translate(8, -8);
   //rotate(radians(mouseX));
-  //translate(-posX, -posY);
+  //translate(-8, -8);
   ellipse(posX, posY, i, i);
   popMatrix();
   
@@ -32,7 +32,7 @@ void draw(){
   strokeWeight(8);
   translate(-8, 8);
   //rotate(radians(mouseY));
-  //translate(-posX2, -posY2);
+  //translate(-8, -8);
   ellipse(posX2, posY2, j, j);
   popMatrix();
  
