@@ -1,4 +1,4 @@
-// aca esta el codigo de mis funciones, simples.
+//codigo de las funciones
 void Botoncircular( String label_, float x_, float y_, float ancho1_, float alto1_  ) {
   pushStyle ();
   pushMatrix();

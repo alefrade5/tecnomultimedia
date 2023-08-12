@@ -22,7 +22,6 @@ void setup() {
   myfont3 = createFont("texto2.ttf", 80);
   
   //cargo las fotos
-  
   fondos = new PImage[21];
   fondos[0] = loadImage("menu1.png");
   fondos[1] = loadImage("imagen1.png");
