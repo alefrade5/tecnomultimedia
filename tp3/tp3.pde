@@ -58,7 +58,7 @@ void setup() {
   textos [9] ="hackeando consigo las claves de sus cuentas bancarias";
   textos [10] ="me sale un aviso de vulnerabilidad del sistema";
   textos [11] ="continuas con el hackeo, hasta que se me bloquea la computadora";
-  textos [12] ="empece a escuchar golpes en la puerta de mi casa";
+  textos [12] ="derepente empece a escuchar golpes en la puerta de mi casa";
   textos [13] ="era la policia entrando con fuerza, quedando arrestado y viviendo el resto de mi vida preso";
   textos [14] ="por las dudas no continuo y verifico con el antivirus";
   textos [15] ="bloqueo todo lo que no conozca";
