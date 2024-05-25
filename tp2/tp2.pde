@@ -125,7 +125,7 @@ text(texto17, width-219, 350);
 text(texto18, width-219, 370);
 text(texto19, width-219, 390);
 
-if (frameCount == 60 * 90)
+if (frameCount == 60 * 95)
   pantalla = "segundo juego";
 
 }else if( pantalla == "segundo juego"){
@@ -138,7 +138,7 @@ text(texto22, width-219, 350);
 text(texto23, width-219, 370);
 text(texto24, width-219, 390);
 
-if (frameCount == 60 * 100)
+if (frameCount == 60 * 105)
   pantalla = "tercer juego";
 
 }else if( pantalla == "tercer juego"){
@@ -151,7 +151,7 @@ text(texto27, width-219, 350);
 text(texto28, width-219, 370);
 text(texto29, width-219, 390);
 
-if (frameCount == 60 * 110)
+if (frameCount == 60 * 105)
   pantalla = "final";
 
 }else if( pantalla == "final"){
