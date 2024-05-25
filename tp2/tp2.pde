@@ -83,7 +83,7 @@ if( pantalla == "menu"){
   image (logo,200,100);
   image (comenzar,width/3+45,350);
 
- if (frameCount == 60 * 5)
+ if (frameCount == 60 * 40)
   pantalla = "info";
   
 }else if( pantalla == "info"){
