@@ -96,7 +96,7 @@ text(texto5, width/2, 360);
 text(texto6, width/2, 400);
 image (logoJuegos, width/3+10, 50);
 
-if (frameCount == 60 * 25)
+if (frameCount == 60 * 30)
   pantalla = "requisitos";
 
 }else if( pantalla == "requisitos"){
