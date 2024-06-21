@@ -15,7 +15,6 @@ void setup(){
  imagen.resize (400, 400);
  strokeWeight(3);
  background(255);
- 
 }
 
 void draw(){
@@ -79,7 +78,7 @@ fill(255);
 
 //Movimiento con el mouse
 void mouseMoved() {
-  radioOriginal = maxRadio;
+ radioOriginal = maxRadio;
 }
 
 void keyPressed() {
