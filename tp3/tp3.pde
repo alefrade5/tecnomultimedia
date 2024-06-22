@@ -81,6 +81,7 @@ void mouseMoved() {
  radioOriginal = maxRadio;
 }
 
+//Reinicio de las variables
 void keyPressed() {
  if (key == 'R' || key == 'r') {
  maxRadio = 50; 
