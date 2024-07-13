@@ -1,5 +1,11 @@
 void ojo(){
   
+//Movimiento con el mouse
+rectMode(CENTER);
+translate(height*1.5, width/4);
+rotate(radians(mouseX));
+rotate(radians(mouseY)); 
+  
 //Dibujo de un ojo
 stroke(255);
 strokeWeight(8);

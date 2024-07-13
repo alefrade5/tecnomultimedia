@@ -23,12 +23,6 @@ circulos();
 
 image (imagen, 0, 0);
 
-//Movimiento con el mouse
-rectMode(CENTER);
-translate(height*1.5, width/4);
-rotate(radians(mouseX));
-rotate(radians(mouseY));
-
 ojo();
 
 }
