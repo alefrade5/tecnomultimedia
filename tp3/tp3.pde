@@ -30,6 +30,7 @@ ojo();
 //Reinicio de las variables
 void keyPressed() {
  if (key == 'R' || key == 'r') {
- radioOriginal = 50;
+mouseX = 50;
+mouseY = 50;
 }
 }
